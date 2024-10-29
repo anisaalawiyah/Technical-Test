@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RasaHotelApplication",
+            "request": "launch",
+            "mainClass": "com.javaproject.anisa.RasaHotelApplication",
+            "projectName": "rasahotel"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RasaHotelApplication<rasahotel>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.javaproject.rasahotel.RasaHotelApplication",
+            "projectName": "rasahotel",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
